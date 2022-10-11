@@ -1,0 +1,14 @@
+.header {
+    width: 414px;
+    height: 92px;
+    background-color: #cf2b2b;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .corpo-site .header p {
+    margin-bottom: -8px;
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+  
