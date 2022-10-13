@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,300;0,400;1,100;1,300&display=swap"
       rel="stylesheet"
     />
+    
 
     <title>Exercício</title>
   </head>
@@ -55,27 +56,30 @@
         <!---inicio div prato-->
         <div class="prato">
           <!---inicio div item-->
-          <div class="item">
-          <img src="./images/frango.png" alt="frango"/>
+          <div class="item" id="iten1" onclick="Choose1()">
+          <img src="./images/frango.png" alt="frango" />
           <p width="139" height="23" style="font-size: 16px;margin-right: 25px;" >Frango Yin Yang</p>
           <p width="147" height="39" style="font-size: 15px; color: #A6A6A6;margin-top: 0px;">Um pouco de batata, um pouco de salada</p>
        <p width="66" height="19" style="font-size: 16px; font-weight: 400; margin-right: 80px; margin-top: -10px;" >R$ 14,90</p>
+       <img src="./images/check.png" alt="check" id="check1" width="19" height="19" style="margin-top: -9px; margin-right: -139px; visibility: hidden;" />
       </div>
           <!---fim div item-->
           <!---inicio div item 2-->
-          <div class="item">
+          <div class="item" id="iten2" onclick="Choose2()">
             <img src="./images/frango.png" alt="frango"/>
             <p width="139" height="23" style="font-size: 16px;margin-right: 25px;" >Frango Yin Yang</p>
             <p width="147" height="39" style="font-size: 15px; color: #A6A6A6;margin-top: 0px;">Um pouco de batata, um pouco de salada</p>
          <p width="66" height="19" style="font-size: 16px; font-weight: 400; margin-right: 80px; margin-top: -10px;" >R$ 14,90</p>
+         <img src="./images/check.png" alt="check" id="check2" width="19" height="19" style="margin-top: -9px; margin-right: -139px; visibility: hidden;" />
         </div>
         <!---fim div item 2-->
         <!---inicio div item 3-->
-        <div class="item">
+        <div class="item" id="iten3" onclick="Choose3()">
           <img src="./images/frango.png" alt="frango"/>
           <p width="139" height="23" style="font-size: 16px;margin-right: 25px;" >Frango Yin Yang</p>
           <p width="147" height="39" style="font-size: 15px; color: #A6A6A6; margin-top: 0px;">Um pouco de batata, um pouco de salada</p>
        <p width="66" height="19" style="font-size: 16px; font-weight: 400; margin-right: 80px; margin-top: -10px;" >R$ 14,90</p>
+       <img src="./images/check.png" alt="check" id="check3" width="19" height="19" style="margin-top: -9px; margin-right: -139px; visibility: hidden;" />
       </div>
       <!---fim div item 3-->
         </div>
@@ -162,8 +166,12 @@
         <!---fim div footer-->
       </div>
     <!---fim corpo-site-->
+
+    <script src="./script.js"></script>
   </body>
 </html>
 
 <!---o que fazer agora?
-Parte de JS-->
+terminar de configurar o item ai 
+copiar ele várias vezes e depois 
+seguir-->

@@ -47,6 +47,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 18px;
+  border: solid;
+  border-color: white;
 }
 
 .footer {
