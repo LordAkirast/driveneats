@@ -51,6 +51,11 @@ body {
   border-color: white;
 }
 
+.item-selecionado {
+  border-color: #67b930;
+  border-radius: 9px;
+}
+
 .footer {
   width: 414px;
   height: 92px;
