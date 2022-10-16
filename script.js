@@ -362,8 +362,9 @@ function totalAll() {
     - Sobremesa: Pudim
     Total: ${totalall}`;
     let encoded = encodeURIComponent(msg);
-    const url = `https://wa.me/+5548999709825?text=${msg}`;
-    document.getElementById("anchor-confirm").href = url;
+
+    window.open(`https://wa.me/5548999709825?text=${encoded}`);
+
     console.log(msg);
   }
 }
