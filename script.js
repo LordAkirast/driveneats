@@ -360,7 +360,7 @@ function totalAll() {
     - Prato: Frango Yin Yang 
     - Bebida: Coquinha Gelada
     - Sobremesa: Pudim
-    Total: ${totalall}`;
+    Total: R$ ${totalall}`;
     let encoded = encodeURIComponent(msg);
 
     window.open(`https://wa.me/5548999709825?text=${encoded}`);
